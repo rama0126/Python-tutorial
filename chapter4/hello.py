@@ -1,3 +1,4 @@
-add = lambda a,b: a+b
-result = add(3,4)
-print(result)
+import sys
+args=sys.argv[1:]
+for i in args:
+    print(i)
